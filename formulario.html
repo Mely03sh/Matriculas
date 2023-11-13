@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Matrícula</title>
+  <link rel="stylesheet" href="formulario-styles.css">
+  <script src="funcionalidad.js"></script>
+</head>
+<body>
+   
+
+  <!-- Encabezado del formulario -->
+  <header class="header">
+    <img src= "39 (1).png" alt="Escudo del colegio">
+    <h1>Formulario de Matrícula</h1>
+  </header>
+
+  <!-- Formulario -->
+  <form action="#" method="post" class="matricula-form">
+
+     <!-- Aviso de campos obligatorios -->
+  <div class="aviso">
+    <p>Los campos marcados con <span class="asterisco">*</span> son obligatorios.</p>
+  </div>
+
+    <!-- Datos del Estudiante -->
+    <fieldset>
+        <legend>Datos del Estudiante</legend>
+  
+        <!-- ID del Estudiante (número) -->
+        <label for="id_estudiante">ID del Estudiante<span class="asterisco">*</span>:</label>
+        <input type="number" id="id_estudiante" name="id_estudiante" required>
+  
+        <!-- Tipo de ID (texto) -->
+        <label for="tipo_id">Tipo de ID<span class="asterisco">*</span>:</label>
+        <input type="text" id="tipo_id" name="tipo_id" required>
+  
+        <!-- Nombres (texto) -->
+        <label for="nombres">Nombres<span class="asterisco">*</span>:</label>
+        <input type="text" id="nombres" name="nombres" required>
+  
+        <!-- Apellidos (texto) -->
+        <label for="apellidos">Apellidos<span class="asterisco">*</span>:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+  
+        <!-- Género (texto) -->
+        <label for="genero">Género<span class="asterisco">*</span>:</label>
+        <input type="text" id="genero" name="genero" required>
+  
+        <!-- Fecha de Nacimiento (fecha) -->
+        <label for="fecha_nacimiento">Fecha de Nacimiento<span class="asterisco">*</span>:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+  
+        <!-- Dirección (texto) -->
+        <label for="direccion">Dirección<span class="asterisco">*</span>:</label>
+        <input type="text" id="direccion" name="direccion" required>
+  
+        <!-- Discapacidad (texto) -->
+        <label for="discapacidad">Discapacidad<span class="asterisco">*</span>:</label>
+        <input type="text" id="discapacidad" name="discapacidad" required>
+  
+        <!-- País de Origen (texto) -->
+        <label for="pais_origen">País de Origen<span class="asterisco">*</span>:</label>
+        <input type="text" id="pais_origen" name="pais_origen" required>
+  
+        <!-- Correo (texto) -->
+        <label for="correo">Correo<span class="asterisco">*</span>:</label>
+        <input type="text" id="correo" name="correo" required>
+  
+        <!-- Sisbén (texto) -->
+        <label for="sisben">Sisbén<span class="asterisco">*</span>:</label>
+        <input type="text" id="sisben" name="sisben" required>
+  
+        <!-- Sector (texto) -->
+        <label for="sector">Sector<span class="asterisco">*</span>:</label>
+        <input type="text" id="sector" name="sector" required>
+  
+        <!-- Calendario (texto) -->
+        <label for="calendario">Calendario<span class="asterisco">*</span>:</label>
+        <input type="text" id="calendario" name="calendario" required>
+  
+        <!-- Dane (número) -->
+        <label for="dane">Dane<span class="asterisco">*</span>:</label>
+        <input type="number" id="dane" name="dane" required>
+  
+        <!-- Estado (texto) -->
+        <label for="estado">Estado<span class="asterisco">*</span>:</label>
+        <input type="text" id="estado" name="estado" required>
+  
+      </fieldset>
+  
+
+    </fieldset>
+
+   <!-- Datos del Acudiente -->
+   <fieldset>
+    <legend>Datos del Acudiente</legend>
+
+    <!-- ID del Acudiente (número) -->
+    <label for="id_acudiente">ID del Acudiente<span class="asterisco">*</span>:</label>
+    <input type="number" id="id_acudiente" name="id_acudiente" required>
+
+    <!-- Tipo de ID (texto) -->
+    <label for="tipo_id_acudiente">Tipo de ID<span class="asterisco">*</span>:</label>
+    <input type="text" id="tipo_id_acudiente" name="tipo_id_acudiente" required>
+
+    <!-- Nombres (texto) -->
+    <label for="nombres_acudiente">Nombres<span class="asterisco">*</span>:</label>
+    <input type="text" id="nombres_acudiente" name="nombres_acudiente" required>
+
+    <!-- Apellidos (texto) -->
+    <label for="apellidos_acudiente">Apellidos<span class="asterisco">*</span>:</label>
+    <input type="text" id="apellidos_acudiente" name="apellidos_acudiente" required>
+
+    <!-- Número de Celular (número) -->
+    <label for="celular_acudiente">Número de Celular<span class="asterisco">*</span>:</label>
+    <input type="number" id="celular_acudiente" name="celular_acudiente" required>
+
+    <!-- Correo (texto) -->
+    <label for="correo_acudiente">Correo<span class="asterisco">*</span>:</label>
+    <input type="text" id="correo_acudiente" name="correo_acudiente" required>
+
+    <!-- Dirección (texto) -->
+    <label for="direccion_acudiente">Dirección<span class="asterisco">*</span>:</label>
+    <input type="text" id="direccion_acudiente" name="direccion_acudiente" required>
+
+    <!-- Parentesco (texto) -->
+    <label for="parentesco_acudiente">Parentesco<span class="asterisco">*</span>:</label>
+    <input type="text" id="parentesco_acudiente" name="parentesco_acudiente" required>
+
+  </fieldset>
+
+    <!-- Datos de la Sede -->
+    <fieldset>
+        <legend>Datos de la Sede</legend>
+  
+        <!-- ID de la Sede (número) -->
+        <label for="id_sede">ID de la Sede<span class="asterisco">*</span>:</label>
+        <input type="number" id="id_sede" name="id_sede" required>
+  
+        <!-- Nombre de la Sede (opciones) -->
+        <label for="nombre_sede">Nombre de la Sede:</label>
+        <select id="nombre_sede" name="nombre_sede" required>
+          <option value="RetiroPerez">Sede Retiro de los Perez</option>
+          <option value="Raicero">Sede Raicero</option>
+          <option value="AguasVivas">Sede Aguas Vivas</option>
+          <option value="ArroyoMedio">Sede Arroyo del Medio</option>
+          <option value="FlechaSevilla">Sede Principal Flecha Sevilla</option>
+        </select>
+  
+        <!-- Dirección de la Sede (texto) -->
+        <label for="direccion_sede">Dirección de la Sede<span class="asterisco">*</span>:</label>
+        <input type="text" id="direccion_sede" name="direccion_sede" required>
+  
+      </fieldset>
+
+    <!-- Sección: Datos del Grado -->
+    <!-- Datos del Grado -->
+    <fieldset>
+        <legend>Datos del Grado</legend>
+  
+        <!-- ID del Grado (número) -->
+        <label for="id_grado">ID del Grado<span class="asterisco">*</span>:</label>
+        <input type="number" id="id_grado" name="id_grado" required>
+  
+        <!-- Opciones para el Grado (opciones) -->
+        <label for="opciones_grado">Selecciona el Grado<span class="asterisco">*</span>:</label>
+        <select id="opciones_grado" name="opciones_grado" required>
+          <option value="0">Grado 0</option>
+          <option value="1">Grado 1</option>
+          <option value="2">Grado 2</option>
+          <option value="3">Grado 3</option>
+          <option value="4">Grado 4</option>
+          <option value="5">Grado 5</option>
+          <option value="6">Grado 6</option>
+          <option value="7">Grado 7</option>
+          <option value="8">Grado 8</option>
+          <option value="9">Grado 9</option>
+          <option value="10">Grado 10</option>
+          <option value="11">Grado 11</option>
+        </select>
+  
+      </fieldset>
+  
+
+     <!-- Datos del Curso -->
+     <fieldset>
+        <legend>Datos del Curso</legend>
+  
+        <!-- ID del Curso (número) -->
+        <label for="id_curso">ID del Curso<span class="asterisco">*</span>:</label>
+        <input type="number" id="id_curso" name="id_curso" required>
+  
+        <!-- Opciones para el Curso (opciones) -->
+        <label for="opciones_curso">Selecciona el Curso<span class="asterisco">*</span>:</label>
+        <select id="opciones_curso" name="opciones_curso" required>
+          <option value="1">Curso 1</option>
+          <option value="2">Curso 2</option>
+        </select>
+  
+      </fieldset>
+
+   <!-- Datos de la Matrícula -->
+   <fieldset>
+    <legend>Datos de la Matrícula</legend>
+
+    <!-- Número de la Matrícula (número) -->
+    <label for="numero_matricula">Número de Matrícula<span class="asterisco">*</span>:</label>
+    <input type="number" id="numero_matricula" name="numero_matricula" required>
+
+    <!-- Folio (número) -->
+    <label for="folio">Folio<span class="asterisco">*</span>:</label>
+    <input type="number" id="folio" name="folio" required>
+
+    <!-- Fecha de Matrícula (fecha) -->
+    <label for="fecha_matricula">Fecha de Matrícula<span class="asterisco">*</span>:</label>
+    <input type="date" id="fecha_matricula" name="fecha_matricula" required>
+
+  </fieldset>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Estilos específicos para el formulario -->
+  <link rel="stylesheet" href="formulario-styles.css">
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Manejar el evento submit del formulario
+      document.querySelector('.matricula-form').addEventListener('submit', function (event) {
+        // Evitar que el formulario se envíe automáticamente
+        event.preventDefault();
+  
+        // Realizar la validación antes de guardar los datos
+        if (validarFormulario()) {
+          // Si la validación es exitosa, llamar a la función para guardar los datos
+          guardarDatos();
+        } else {
+          // Si la validación falla, mostrar un mensaje de error
+          alert("Por favor, llene todos los campos.");
+        }
+      });
+  
+      // Función para validar que todos los campos estén llenos
+      function validarFormulario() {
+        var campos = document.querySelectorAll('.matricula-form input, .matricula-form select');
+  
+        for (var i = 0; i < campos.length; i++) {
+          if (campos[i].hasAttribute('required') && !campos[i].value.trim()) {
+            return false; // Retorna falso si encuentra algún campo requerido vacío
+          }
+        }
+  
+        return true; // Retorna true si todos los campos requeridos están llenos
+      }
+  
+      // Función para guardar los datos del formulario
+      function guardarDatos() {
+        var formData = {
+          estudiante: {
+            id: document.getElementById('id_estudiante').value,
+            tipo_id: document.getElementById('tipo_id').value,
+            // ... (otros campos del estudiante)
+          },
+          acudiente: {
+            id: document.getElementById('id_acudiente').value,
+            tipo_id: document.getElementById('tipo_id_acudiente').value,
+            // ... (otros campos del acudiente)
+          },
+          sede: {
+            id: document.getElementById('id_sede').value,
+            nombre: document.getElementById('nombre_sede').value,
+            // ... (otros campos de la sede)
+          },
+          grado: {
+            id: document.getElementById('id_grado').value,
+            opciones: document.getElementById('opciones_grado').value,
+            // ... (otros campos del grado)
+          },
+          curso: {
+            id: document.getElementById('id_curso').value,
+            opciones: document.getElementById('opciones_curso').value,
+            // ... (otros campos del curso)
+          },
+          matricula: {
+            numero: document.getElementById('numero_matricula').value,
+            folio: document.getElementById('folio').value,
+            fecha: document.getElementById('fecha_matricula').value,
+            // ... (otros campos de la matrícula)
+          },
+        };
+  
+        // Puedes hacer algo con los datos, por ejemplo, mostrar una alerta
+        alert("Datos guardados:\n" + JSON.stringify(formData, null, 2));
+      }
+    });
+  </script>
+  
+
+</body>
+</html>
+
+

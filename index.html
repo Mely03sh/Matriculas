@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IE San Juan Bautista</title>
+  <link rel="stylesheet" href="styles.css">
+   <!-- Incluir Slick Carousel CSS -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+
+  <!-- Encabezado con el escudo y el nombre del colegio -->
+  <header class="header">
+    <img src= "39 (1).png" alt="Escudo del colegio">
+    <h1>IE San Juan Bautista</h1>
+  </header>
+
+  <!-- Menú de navegación con enlace al formulario -->
+  <nav class="menu">
+    <ul>
+      <li><a href="formulario.html">Formulario de Matrícula</a></li>
+    </ul>
+  </nav>
+<!-- Agregar esto donde desees que aparezca el carrusel en tu cuerpo HTML -->
+<div class="carrusel-container" style="flex: 1;">
+    <div class="slick-slider">
+    <div><img src="299471456_2826473430981896_169311630073801862_n.jpg" alt="Imagen 3"></div>
+    <div><img src="309824785_2863429047286334_911308166465344114_n.jpg" alt="Imagen 3"></div>
+    <div><img src="309840790_2863429553952950_273314438594431716_n.jpg" alt="Imagen 3"></div>
+    <!-- Agrega más imágenes según sea necesario -->
+  </div>
+
+  <div class="vision-mision-container" style="flex: 1; padding: 20px; background-color: #f0f0f0; border-radius: 10px;">
+    <h2>Visión</h2>
+    <p>En el año 2025 la Institución Educativa San Juan Bautista de Flecha Sevilla será una institución formadora de personas integras, autogestoras del conocimiento, competentes, 
+        capaces de adelantar propuestas ambientales que le permitan mejorar su calidad de vida y contribuir con la sostenibilidad de la región, respondiendo a las exigencias de una sociedad globalizada.</p>
+
+    <h2>Misión</h2>
+    <p>La Institución Educativa San Juan Bautista de Flecha Sevilla es un establecimiento de carácter oficial, comprometido con el mejoramiento continuo, que presta un servicio educativo de calidad, 
+        procurando la formación de estudiantes competentes y capaces de construir su proyecto de vida.</p>
+  </div>
+  
+   <!-- Incluir Slick Carousel JS y otros scripts según sea necesario -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+   <script>
+     $(document).ready(function(){
+       $('.slick-slider').slick({
+         autoplay: true,
+         autoplaySpeed: 2000,
+         dots: true,
+         arrows: true
+       });
+     });
+   </script>
+  
+
+ <!-- Incluir Slick Carousel CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+<!-- Estilos adicionales para la sección de Visión y Misión -->
+<style>
+    .vision-mision-container {
+      width: 40%; /* Puedes ajustar el ancho según tus preferencias */
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f0f0f0; /* Puedes cambiar el color de fondo según tu estilo */
+      border-radius: 10px;
+    }
+  </style>
+
+<!-- Estilos adicionales para el carrusel -->
+<style>
+    .slick-slider {
+      width: 60%; /* Puedes ajustar el porcentaje según tus preferencias */
+      margin: 0 auto;
+    }
+  
+    .slick-slide img {
+      width: 100%;
+      border-radius: 10px; /* Añade esquinas redondeadas a las imágenes */
+    }
+  </style>
+  
+
+<!-- Incluir jQuery (requerido por Slick Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Incluir Slick Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<!-- Incluir tu script personalizado después de Slick Carousel -->
+<script>
+  $(document).ready(function(){
+    // Inicializar el carrusel con las opciones deseadas
+    $('.slick-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 2000, // Velocidad de reproducción automática en milisegundos
+      dots: true, // Muestra los puntos de navegación
+      arrows: true // Muestra las flechas de navegación
+      // Puedes agregar más opciones según la documentación de Slick Carousel
+    });
+  });
+</script>
+
+
+
+</body>
+</html>
